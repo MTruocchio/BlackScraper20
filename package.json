@@ -1,0 +1,23 @@
+{
+  "name": "blackscraper20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTruocchio/BlackScraper20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTruocchio/BlackScraper20/issues"
+  },
+  "homepage": "https://github.com/MTruocchio/BlackScraper20#readme"
+}
