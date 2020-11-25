@@ -3,10 +3,11 @@ var app = express()
 var bodyParser = require('body-parser')
 const socketIo = require("socket.io");
 var db = require("./database.js")
+var cors = require('cors')
 
 
 var HTTP_PORT = 8000 
-
+app.use(cors())
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))
